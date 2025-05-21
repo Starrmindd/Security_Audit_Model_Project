@@ -1,10 +1,5 @@
 [
     {
-        "target": "123",
-        "timestamp": "2025-05-21 16:32:55",
-        "vulnerabilities": []
-    },
-    {
         "target": "qwe",
         "timestamp": "2025-05-21 16:55:27",
         "vulnerabilities": [
@@ -22,6 +17,36 @@
     {
         "target": "http\/\/:www.google.com",
         "timestamp": "2025-05-21 17:13:54",
+        "vulnerabilities": [
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    },
+    {
+        "target": "https\/\/:www.google.com",
+        "timestamp": "2025-05-21 21:46:05",
+        "vulnerabilities": []
+    },
+    {
+        "target": "https\/\/:www.google.com",
+        "timestamp": "2025-05-21 21:52:42",
+        "vulnerabilities": [
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    },
+    {
+        "target": "https\/\/:www.google.com",
+        "timestamp": "2025-05-21 21:52:49",
+        "vulnerabilities": []
+    },
+    {
+        "target": "https\/\/:www.google.com",
+        "timestamp": "2025-05-21 21:52:55",
         "vulnerabilities": [
             {
                 "name": "Missing CSP Header",

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "SQL Injection",
+    "severity": "High",
+    "example_site": "http://vulnsite.com/login.php?id=1' OR '1'='1",
+    "description": "Allows attackers to manipulate SQL queries and access or modify sensitive data."
+  },
+  {
+    "name": "Cross-Site Scripting (XSS)",
+    "severity": "Medium",
+    "example_site": "http://example.com/search?q=<script>alert(1)</script>",
+    "description": "Injects malicious JavaScript into web pages viewed by other users."
+  },
+  {
+    "name": "Directory Listing Enabled",
+    "severity": "Low",
+    "example_site": "http://oldsite.org/images/",
+    "description": "Exposes file and folder structure to the public."
+  }
+]
