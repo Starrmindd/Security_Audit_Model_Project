@@ -1,0 +1,32 @@
+[
+    {
+        "target": "123",
+        "timestamp": "2025-05-21 16:32:55",
+        "vulnerabilities": []
+    },
+    {
+        "target": "qwe",
+        "timestamp": "2025-05-21 16:55:27",
+        "vulnerabilities": [
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    },
+    {
+        "target": "www.google.com",
+        "timestamp": "2025-05-21 17:09:52",
+        "vulnerabilities": []
+    },
+    {
+        "target": "http\/\/:www.google.com",
+        "timestamp": "2025-05-21 17:13:54",
+        "vulnerabilities": [
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    }
+]

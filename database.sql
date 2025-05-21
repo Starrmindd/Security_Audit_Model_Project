@@ -1,0 +1,7 @@
+CREATE TABLE results (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  target VARCHAR(255),
+  vulnerability VARCHAR(255),
+  severity VARCHAR(20),
+  timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
