@@ -1,20 +1,5 @@
 [
     {
-        "target": "qwe",
-        "timestamp": "2025-05-21 16:55:27",
-        "vulnerabilities": [
-            {
-                "name": "Missing CSP Header",
-                "severity": "Medium"
-            }
-        ]
-    },
-    {
-        "target": "www.google.com",
-        "timestamp": "2025-05-21 17:09:52",
-        "vulnerabilities": []
-    },
-    {
         "target": "http\/\/:www.google.com",
         "timestamp": "2025-05-21 17:13:54",
         "vulnerabilities": [
@@ -23,11 +8,6 @@
                 "severity": "Medium"
             }
         ]
-    },
-    {
-        "target": "https\/\/:www.google.com",
-        "timestamp": "2025-05-21 21:46:05",
-        "vulnerabilities": []
     },
     {
         "target": "https\/\/:www.google.com",
@@ -41,11 +21,6 @@
     },
     {
         "target": "https\/\/:www.google.com",
-        "timestamp": "2025-05-21 21:52:49",
-        "vulnerabilities": []
-    },
-    {
-        "target": "https\/\/:www.google.com",
         "timestamp": "2025-05-21 21:52:55",
         "vulnerabilities": [
             {
@@ -53,5 +28,73 @@
                 "severity": "Medium"
             }
         ]
+    },
+    {
+        "target": "http:\/\/vulnsite.com\/login.php?id=1' OR '1'='1",
+        "timestamp": "2025-05-21 22:02:09",
+        "vulnerabilities": [
+            {
+                "name": "Insecure Protocol (HTTP)",
+                "severity": "High"
+            },
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    },
+    {
+        "target": "http:\/\/oldsite.org\/images\/",
+        "timestamp": "2025-05-21 22:03:22",
+        "vulnerabilities": [
+            {
+                "name": "Insecure Protocol (HTTP)",
+                "severity": "High"
+            }
+        ]
+    },
+    {
+        "target": "http:\/\/myserver.com \u2192 Apache\/2.4.41",
+        "timestamp": "2025-05-21 22:06:00",
+        "vulnerabilities": [
+            {
+                "name": "Insecure Protocol (HTTP)",
+                "severity": "High"
+            }
+        ]
+    },
+    {
+        "target": "https:\/\/myserver.com \u2192 Apache\/2.4.41",
+        "timestamp": "2025-05-21 22:06:13",
+        "vulnerabilities": []
+    },
+    {
+        "target": "https:\/\/myserver.com \u2192 Apache\/2.4.41",
+        "timestamp": "2025-05-21 22:07:00",
+        "vulnerabilities": [
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    },
+    {
+        "target": "http:\/\/redirectsite.com\/go?url=http:\/\/malicious.com",
+        "timestamp": "2025-05-21 22:07:23",
+        "vulnerabilities": [
+            {
+                "name": "Insecure Protocol (HTTP)",
+                "severity": "High"
+            },
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
+    },
+    {
+        "target": "https:\/\/redirectsite.com\/go?url=http:\/\/malicious.com",
+        "timestamp": "2025-05-21 22:07:42",
+        "vulnerabilities": []
     }
 ]
