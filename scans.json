@@ -96,5 +96,15 @@
         "target": "https:\/\/redirectsite.com\/go?url=http:\/\/malicious.com",
         "timestamp": "2025-05-21 22:07:42",
         "vulnerabilities": []
+    },
+    {
+        "target": "https\/\/:www.google.com",
+        "timestamp": "2025-05-22 00:13:25",
+        "vulnerabilities": [
+            {
+                "name": "Missing CSP Header",
+                "severity": "Medium"
+            }
+        ]
     }
 ]
