@@ -10,5 +10,9 @@
     {
         "username": "mayor",
         "password": "$2y$10$5LEmbVpAXej7KJGNBPi\/gOGf\/vnvL2ZVH0c.DOdnpyWYBAsg\/.TiO"
+    },
+    {
+        "username": "tobex",
+        "password": "$2y$10$y7OnhYGYiufb8XlNa1zIv.e..Q\/eHWSEIVFuoqH\/QUHGc8zeIXLdC"
     }
 ]
